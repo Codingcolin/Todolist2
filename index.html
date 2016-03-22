@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<header>Insert Below!</header>
+<body>
+<input type="text" id="list">
+
+
+<button onclick="myFunction()">You ready?</button>
+
+<ul id="todolist"></ul>
+
+
+<script>
+function myFunction() {
+	var list = document.getElementById('list').value
+	var li= document.createElement('li')
+    var t = document.createTextNode(list);
+    var todolist = document.getElementById('todolist')
+    todolist.appendChild(li)
+    li.appendChild(t);
+
+
+}
+
+</script>
+<link rel= "stylesheet" href= "css/main.css">
+</body>
+</html>

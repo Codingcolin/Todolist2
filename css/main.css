@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #ccc;
+}
+#button{
+display: inline-block;
+background-color:#fc999b;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
+header {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+input {
+	background-color: #F4F4F4;
+    text-align: center;
+    padding: 5px;
+    margin: auto;  
+    width: 600px;
+    position: c
+}    
+
